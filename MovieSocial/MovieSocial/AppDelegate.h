@@ -10,6 +10,12 @@
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
-@property (strong, nonatomic) UIWindow *window;
+@property (nonatomic, retain) UITabBarController *tabBarController;
+@property (retain, nonatomic) UIWindow *window;
+@property (retain, nonatomic) UIButton *movieTab;
+@property (retain, nonatomic) UIButton *friendsTab;
+@property (retain, nonatomic) UIButton *messageTab;
+@property (retain, nonatomic) UIButton *propsTab;
+@property (retain, nonatomic) UIButton *settingTab;
 
 @end
